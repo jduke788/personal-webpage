@@ -18,7 +18,26 @@ body {
 
 .mainIndex #indexPhoto {
   box-shadow: 5px 5px 3px blue;
-} 
+}
+
+.furtherHome {
+ text-align: center;
+ margin: 20px 0;
+ width: 100%;
+ padding-top: 5px;
+}
+
+.linkedInPic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.linkedInPic #LinkedIn {
+  max-width: 100%;
+  height: auto;
+}
 
 .furtherHome #LinkedIn:hover { 
   box-shadow: 5px 5px 5px 5px seagreen;
@@ -26,7 +45,7 @@ body {
 
 .mainIndex {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: flex-start;
   height: 100vh;
   padding: 0 20px;
@@ -38,6 +57,7 @@ body {
   flex-direction: row-reverse;
   width: 100%;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .homeImageContainer{
@@ -53,6 +73,7 @@ body {
 
 .furtherHome {
   text-align: center;
+  margin: 20px 0;
 }
 
 h1 {
@@ -115,3 +136,12 @@ nav ul li a {
 nav ul li a:hover {
   color: #007bff;
 } 
+
+footer {
+  margin: 0;
+}
+
+footer #copyright {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
