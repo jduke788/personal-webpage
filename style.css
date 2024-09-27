@@ -7,6 +7,7 @@ body {
   line-height: 1.5;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
 }
 
 .bodyIndex {
@@ -19,14 +20,46 @@ body {
   box-shadow: 5px 5px 3px blue;
 } 
 
-.mainIndex #LinkedIn:hover { 
+.furtherHome #LinkedIn:hover { 
   box-shadow: 5px 5px 5px 5px seagreen;
+}
+
+.mainIndex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 0 20px;
+  margin-top: 35px;
+}
+
+.homeImages {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  margin-top: 0;
+}
+
+.homeImageContainer{
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+#barclaysLogo, #indexPhoto, #uniOfLiv {
+  max-width: 100%;
+  height: auto;
+}
+
+.furtherHome {
+  text-align: center;
 }
 
 h1 {
   text-align: center;
   font-family: montserrat;
   font-size: 3em; 
+  margin: 3px;
 }
 
 h1,
@@ -62,7 +95,7 @@ nav ul {
   justify-content: center; 
   padding-right: 20px; 
   padding-left: 20px; 
-  margin: 20px; 
+  margin: 20px;
   font-size: 90%;
 }
   nav ul li {
