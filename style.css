@@ -9,6 +9,26 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.bodyIndex {
+ text-align: center;
+ background-color: lightgoldenrodyellow;
+}
+
+
+.mainIndex #indexPhoto {
+  box-shadow: 5px 5px 3px blue;
+} 
+
+.mainIndex #LinkedIn:hover { 
+  box-shadow: 5px 5px 5px 5px seagreen;
+}
+
+h1 {
+  text-align: center;
+  font-family: montserrat;
+  font-size: 3em; 
+}
+
 h1,
 h2,
 h3,
@@ -35,3 +55,30 @@ nav a:hover {
 [aria-current="page"] {
   text-decoration: underline;
 }
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center; 
+  padding-right: 20px; 
+  padding-left: 20px; 
+  margin: 20px; 
+  font-size: 90%;
+}
+  nav ul li {
+  margin-right: 20px;
+  }
+
+nav ul li:last-child {
+  margin-right: 0; 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+} 
